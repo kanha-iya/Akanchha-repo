@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    text-align: center;
+}
+body{
+    background-color:#CAF4FF;
+}
+
+.btns{
+    margin: auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+input{
+    height: 70px;
+    width: 97%;
+    font-size: 30px;
+    background: #FAF6F0;
+    border: 3px solid #373A40;
+    box-shadow: inset 0px 0px 8px #686D76;
+    border-radius: 10px;
+    text-align: right;
+}
+input::placeholder{
+    color: #052753;
+}
+button{
+    font-size: 40px;
+    background: #E0FBE2;
+    width: 95px;
+    height: 60px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    display: inline-block;
+
+}
+button:hover{
+    background: #E49BFF;
+}
+.opEqual{
+    background: #f67c14;
+    grid-column: span 2;
+    width: auto;
+}
+.op{
+    color: #A91D3A;
+    background-color: #FDE49E;
+    text-align: center;
+}
+#btn{
+    display: inline-block;
+    background-color: #ACE1AF;
+    padding: 30px;
+    border-radius: 20px;
+}
+#heading{
+    font-size: 40px;
+    color: rgb(232, 23, 23);
+    margin: auto;
+    font-style: italic;
+}
+
